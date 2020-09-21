@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .box{
+            display: flex;
+            /* flex-wrap wrap 强制换行 nowrap 不换 */
+            flex-wrap: wrap;
+        }
+
+        .item{
+            width: 33.3333%;
+            height: 125px;
+            display: flex;
+            /* 换成竖排 */
+            flex-direction: column;
+            /* 主轴居中 */
+            justify-content: center;
+            align-items: center;
+            border-left: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            box-sizing: border-box;
+        }
+
+        .item img {
+            width: 35px;
+        }
+        .item p {
+            padding: 10px 0;
+        }
+    </style>
+</body>
+</html>
